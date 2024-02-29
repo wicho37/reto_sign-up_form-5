@@ -1,8 +1,10 @@
-import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+      <p>learn to code by watching others</p>
+      <p>see how experenced developers solve problems in real-time. watching scripted tutorials is great, but understanding how developers thinsk is invaluable.</p>
+    </div>
   )
 }
 
