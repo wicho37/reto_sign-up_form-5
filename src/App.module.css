@@ -1,9 +1,10 @@
 .container {
-    background-image: url("./assets/bg-intro-mobile.png");
     display: flex;
+    font-family: "Poppins";
     flex-direction: column;
     margin: 20% 7%;
     height: 700px;
+   
 
 }
 
@@ -12,3 +13,6 @@
         flex-direction: row;
     }
 }
+
+
+
