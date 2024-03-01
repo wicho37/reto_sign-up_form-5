@@ -1,6 +1,10 @@
 .container {
+    background-image: url("./assets/bg-intro-mobile.png");
     display: flex;
     flex-direction: column;
+    margin: 20% 7%;
+    height: 700px;
+
 }
 
 @media (min-width: 1240px) {
