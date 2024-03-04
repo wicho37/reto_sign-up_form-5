@@ -53,6 +53,7 @@ export default Form */
 import { useState } from 'react';
 import Card2 from '../Card2/Card2';
 import Card from '../Card/Card';
+import style from "./Form.module.css"
 
 function Formulario() {
   const [formulario, setFormulario] = useState({
@@ -107,8 +108,12 @@ function Formulario() {
   };
 
   return (
+    <div>
+
     <form onSubmit={handleSubmit}>
       <Card />
+      <div className={style.contentInput}>
+
      <input
         placeholder='firs name'
         type="text"
@@ -160,9 +165,11 @@ function Formulario() {
           < Card2 />
         </button>
         <p>by clicking the buttom, you are agreeing to our <a href="">terms and services</a></p>
+      </div>
 
       </div>
   </form>
+    </div>
     
   );
 }
