@@ -6,4 +6,5 @@
 html {
     background-color: hsl(0, 100%, 74%) ;
     background-image: url("./assets/bg-intro-mobile.png");
+    height: 1050px;
 }

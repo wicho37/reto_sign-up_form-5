@@ -4,10 +4,22 @@
 .contentInput {
     background-color: white;
     border-radius: 10px;
-    height: 340px;
+    height: 490px;
     box-shadow: 0 9px #4d48484a;
-
 }
+.contentInput input {
+    width: 89%;
+    margin: 17px;
+    height: 56px;
+    border-radius: 7px;
+    border: solid 1px #23202026
+}
+.contentInput input::placeholder {
+  font-size: 16px;
+  padding: 17px;
+}
+
+
 
 @media (min-width: 1240px) {
     
