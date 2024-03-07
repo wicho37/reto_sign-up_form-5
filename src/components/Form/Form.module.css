@@ -4,7 +4,7 @@
 .contentInput {
     background-color: white;
     border-radius: 10px;
-    height: 490px;
+    height: 530px;
     box-shadow: 0 9px #4d48484a;
 }
 .contentInput input {
@@ -17,6 +17,22 @@
 .contentInput input::placeholder {
   font-size: 16px;
   padding: 17px;
+}
+.policies{
+    text-align: center;
+    padding: 0px 19px;
+    margin: 0 10px;
+    font-size: 15px;
+    color: hsl(246, 25%, 77%);
+    line-height: 25px;
+
+    
+}
+.go{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 600;
+
 }
 
 

@@ -115,7 +115,7 @@ function Formulario() {
       <div className={style.contentInput}>
 
      <input
-        placeholder='firs name'
+        placeholder='Firs name'
         type="text"
         id="nombre"
         name="nombre"
@@ -126,7 +126,7 @@ function Formulario() {
      <span>{errores.nombre}</span>
 
       <input
-        placeholder='last name'
+        placeholder='Last name'
         type="text"
         id="lastName"
         name="lastName"
@@ -158,18 +158,11 @@ function Formulario() {
         required
       />
       <span>{errores.password}</span>
-
-      
-      <div>
-        <button>
-          < Card2 />
-        </button>
-        <p>by clicking the buttom, you are agreeing to our <a href="">terms and services</a></p>
-      </div>
-
-      </div>
-  </form>
+      < Card2/>
+      <p className={style.policies}>By clicking the buttom, you are agreeing to our <a href="#" className={style.go}>Terms and Services</a></p>
     </div>
+  </form>
+  </div>
     
   );
 }

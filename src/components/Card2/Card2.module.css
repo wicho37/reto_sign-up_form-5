@@ -1,0 +1,18 @@
+
+
+
+
+
+.press2{
+    width: 89%;
+    margin: 17px;
+    height: 56px;
+    border-radius: 7px;
+    border: solid 1px #23202026;
+    background-color:  hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
