@@ -17,3 +17,10 @@
 .sevent{
 font-weight: 900;
 }
+
+
+@media (min-width: 1240px) {
+    .press{
+        margin: 0 0 27px;
+    } 
+}

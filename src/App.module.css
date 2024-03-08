@@ -9,9 +9,14 @@
 
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1440px) {
     .container{
         flex-direction: row;
+        margin: 8%;
+        text-align: center;
+    }
+    .container div {
+        width: 100%;
     }
 }
 

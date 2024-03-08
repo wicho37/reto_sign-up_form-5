@@ -22,7 +22,7 @@
     text-align: center;
     padding: 0px 19px;
     margin: 0 10px;
-    font-size: 15px;
+    font-size: 13px;
     color: hsl(246, 25%, 77%);
     line-height: 25px;
 
@@ -31,7 +31,7 @@
 .go{
     color: hsl(0, 100%, 74%);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 
 }
 

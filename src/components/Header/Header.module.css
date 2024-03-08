@@ -1,9 +1,6 @@
 .header{
    color: white;
-   
 }
-
-
 .first_Tittle{
    text-align: center;
    font-size: 29.5px;
@@ -11,12 +8,9 @@
    margin-top: 12px;
    line-height: 38px;
 }
-
 .first_Tittle::first-letter {
    font-size: 30px;
    text-transform: uppercase;
-  
- 
 }
 .last_Tittle {
    text-align: center;
@@ -25,4 +19,13 @@
 }
 .last_Tittle::first-letter{
    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 1440px) {
+  .first_Tittle{
+   text-align: left;
+   font-size: 56px;
+  }
 }
