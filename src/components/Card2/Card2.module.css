@@ -1,11 +1,8 @@
-
-
-
-
-
-.press2{
+.free_trial{
     width: 89%;
-    margin: 17px;
+}
+.press2{
+    width: 100%;
     height: 56px;
     border-radius: 7px;
     border: solid 1px #23202026;
@@ -15,4 +12,11 @@
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1.5px;
+}
+
+
+@media (min-width: 1440px) {
+    .press2{
+        width: 89%;
+    }
 }

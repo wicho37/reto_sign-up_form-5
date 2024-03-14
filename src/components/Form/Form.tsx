@@ -58,17 +58,17 @@ import style from "./Form.module.css"
 function Formulario() {
   const [formulario, setFormulario] = useState({
     nombre: '',
-    lastName:"",
+    lastName: "",
     email: '',
-    password:"",
+    password: "",
     // Agrega más campos según sea necesario
   });
 
   const [errores, setErrores] = useState({
     nombre: '',
-    lastName:"",
+    lastName: "",
     email: '',
-    password:"",
+    password: "",
 
     // Agrega más campos según sea necesario
   });
@@ -97,10 +97,10 @@ function Formulario() {
     e.preventDefault();
 
     // Validación adicional si es necesario
-    if (formulario.nombre.trim() === '' || formulario.lastName.trim() === '' ||formulario.email.trim() === '' || formulario.password.trim() === '') {
+    if (formulario.nombre.trim() === '' || formulario.lastName.trim() === '' || formulario.email.trim() === '' || formulario.password.trim() === '') {
       alert('Por favor, completa todos los campos.');
       return;
-    } 
+    }
 
     // Envía el formulario
     alert('Formulario enviado con éxito.');
@@ -110,60 +110,60 @@ function Formulario() {
   return (
     <div>
 
-    <form onSubmit={handleSubmit}>
-      <Card />
-      <div className={style.contentInput}>
+      <form onSubmit={handleSubmit}>
+        <Card />
+        <div className={style.contentInput}>
 
-     <input
-        placeholder='Firs name'
-        type="text"
-        id="nombre"
-        name="nombre"
-        value={formulario.nombre}
-        onChange={handleChange}
-        required
-      />
-     <span>{errores.nombre}</span>
+          <input
+            placeholder='Firs name'
+            type="text"
+            id="nombre"
+            name="nombre"
+            value={formulario.nombre}
+            onChange={handleChange}
+            required
+          />
+          <span>{errores.nombre}</span>
 
-      <input
-        placeholder='Last name'
-        type="text"
-        id="lastName"
-        name="lastName"
-        value={formulario.lastName}
-        onChange={handleChange}
-        required
-      />
-      <span>{errores.lastName}</span>
+          <input
+            placeholder='Last name'
+            type="text"
+            id="lastName"
+            name="lastName"
+            value={formulario.lastName}
+            onChange={handleChange}
+            required
+          />
+          <span>{errores.lastName}</span>
 
-      
-      <input
-        placeholder='Email Address'
-        type="email"
-        id="email"
-        name="email"
-        value={formulario.email}
-        onChange={handleChange}
-        required
-      />
-      <span>{errores.email}</span>
 
-      <input
-        placeholder='Password'
-        type="password"
-        id="password"
-        name="password"
-        value={formulario.password}
-        onChange={handleChange}
-        required
-      />
-      <span>{errores.password}</span>
-      < Card2/>
-      <p className={style.policies}>By clicking the buttom, you are agreeing to our <a href="#" className={style.go}>Terms and Services</a></p>
+          <input
+            placeholder='Email Address'
+            type="email"
+            id="email"
+            name="email"
+            value={formulario.email}
+            onChange={handleChange}
+            required
+          />
+          <span>{errores.email}</span>
+
+          <input
+            placeholder='Password'
+            type="password"
+            id="password"
+            name="password"
+            value={formulario.password}
+            onChange={handleChange}
+            required
+          />
+          <span>{errores.password}</span>
+          < Card2 />
+          <p className={style.policies}>By clicking the button, you are agreeing to our <a href="#" className={style.go}>Terms and Services</a></p>
+        </div>
+      </form>
     </div>
-  </form>
-  </div>
-    
+
   );
 }
 

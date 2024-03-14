@@ -6,13 +6,13 @@
 html {
     background-color: hsl(0, 100%, 74%) ;
     background-image: url("./assets/bg-intro-mobile.png");
-    height: 1080px;
+    height: 1025px;
 }
 
 @media (min-width: 1440px) {
     html{
         background-image: url("./assets/bg-intro-desktop.png");
-        height: 700px;
+        height: 750px;
         background-repeat: no-repeat;
     }
 }

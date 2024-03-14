@@ -25,14 +25,20 @@
 @media (min-width: 1440px) {
   .first_Tittle{
    text-align: left;
-   font-size: 56px;
+   font-size: 51px;
    margin: 165px 0 0 36px;
+   font-weight: 800;
+   line-height: 61px;
   }
   .first_Tittle::first-letter {
    font-size: 56px;
   }
   .first_Tittle p p{
    margin-top: -14px;
- 
+  }
+  .last_Tittle{
+   margin: 30px;
+    text-align: left;
+    letter-spacing: .3px;
   }
 }
