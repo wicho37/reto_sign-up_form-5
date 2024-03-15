@@ -56,12 +56,12 @@ import Card from '../Card/Card';
 import style from "./Form.module.css"
 
 function Formulario() {
+
   const [formulario, setFormulario] = useState({
     nombre: '',
     lastName: "",
     email: '',
     password: "",
-    // Agrega más campos según sea necesario
   });
 
   const [errores, setErrores] = useState({
@@ -69,8 +69,6 @@ function Formulario() {
     lastName: "",
     email: '',
     password: "",
-
-    // Agrega más campos según sea necesario
   });
 
   const handleChange = (e) => {
@@ -81,7 +79,6 @@ function Formulario() {
       [name]: value,
     });
 
-    // Validación simple, puedes personalizar según tus necesidades
     if (value.trim() === '') {
       setErrores({
         ...errores,
@@ -96,20 +93,15 @@ function Formulario() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validación adicional si es necesario
     if (formulario.nombre.trim() === '' || formulario.lastName.trim() === '' || formulario.email.trim() === '' || formulario.password.trim() === '') {
       alert('Por favor, completa todos los campos.');
       return;
     }
-
-    // Envía el formulario
     alert('Formulario enviado con éxito.');
-    // Aquí podrías enviar el formulario a tu servidor o realizar otras acciones necesarias
   };
 
   return (
     <div>
-
       <form onSubmit={handleSubmit}>
         <Card />
         <div className={style.contentInput}>
@@ -135,7 +127,6 @@ function Formulario() {
             required
           />
           <span>{errores.lastName}</span>
-
 
           <input
             placeholder='Email Address'
@@ -163,7 +154,6 @@ function Formulario() {
         </div>
       </form>
     </div>
-
   );
 }
 

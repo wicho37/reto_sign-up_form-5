@@ -7,7 +7,6 @@
     margin: 50px 0 27px;
     border-width: 0;
     box-shadow: 0 9px #4d48484a;
-
 }
 .bond{
     color: white;
@@ -19,7 +18,7 @@ font-weight: 900;
 }
 
 
-@media (min-width: 1240px) {
+@media (min-width: 1440px) {
     .press{
         margin: 0 0 27px;
     } 

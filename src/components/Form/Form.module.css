@@ -17,7 +17,6 @@
     height: 56px;
     border-radius: 7px;
     border: solid 1px #23202026
-
 }
 .contentInput input::placeholder {
   font-size: 16px;
@@ -30,21 +29,16 @@
     font-size: 13px;
     color: hsl(246, 25%, 77%);
     line-height: 25px;
-
-    
 }
 .go{
     color: hsl(0, 100%, 74%);
     text-decoration: none;
     font-weight: 700;
-
 }
-
 
 
 @media (min-width: 1440px) {
     .contentInput{
         height: 430px;
-
     }
 }

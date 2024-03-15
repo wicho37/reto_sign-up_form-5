@@ -5,9 +5,8 @@
     margin: 20% 7%;
     height: 700px;
     font-family: system-ui;
-   
-
 }
+
 
 @media (min-width: 1440px) {
     .container{
